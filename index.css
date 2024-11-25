@@ -16,8 +16,22 @@ img {
 /* || VARIABLES */
 :root {
   /* COLORS */
-  --YELLOW:#FFB21E;
-  --
+  --YELLOW: #FFB21E;
+  --YELLO-95-WHITE:#f8efe2f7;
+  --BLUE:#1125D6;
+  --BLUE-95-WHITE:#edeffc;
+  --GREEN:#00BB8F;
+  --GREEN-95-WHITE:#e2fff2;
+  --RED:#FF5555;
+  --RED-95-WHITE:#ffeded;
+  --DARKNAVY:#303B59;
+  --LIGHTBLUE:#CAC9FF;
+  --VERYLIGHTBLUE:#ECF2FF;
+  --WHITE:#FFFFFF;
+
+
+  
+
 
   /* GRADIENTS */
 
