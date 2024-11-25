@@ -1,6 +1,6 @@
-@import url("Your Font of Choice");
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 
-/* || REST */
+/* || RESET */
 * {
   padding: 0;
   margin: 0;
@@ -16,6 +16,8 @@ img {
 /* || VARIABLES */
 :root {
   /* COLORS */
+  --YELLOW:#FFB21E;
+  --
 
   /* GRADIENTS */
 
