@@ -30,10 +30,19 @@ img {
   --WHITE:#FFFFFF;
 
 
-  
-
-
   /* GRADIENTS */
+  --GRADIENT-1: linear-gradient(
+    to bottom,
+    #7755FF 0%,
+    #6943FF 0%,
+    #2F2CE9 100%
+  );
+  --GRADIENT-2: linear-gradient(
+    to bottom,
+    #4D21C9 0%,
+    #2521C900 100%,
+    #2521C900 100%
+  );
 
   /* TYPOGRAPHY */
 }
