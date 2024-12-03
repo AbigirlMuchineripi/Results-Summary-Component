@@ -182,3 +182,37 @@ h1{
 figure{
   
 }
+.comment-section{
+  gap: 0.5rem;
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+}
+h1{
+  font: var(--HEADING-M-MOB);
+  color: var(--WHITE);
+}
+.perfomance-comment{
+  font:var(--BODY-MOB);
+  color: var(--LIGHTBLUE);
+  margin: 0.5rem 3.56rem 2.5rem 3.63rem;
+}
+.lower-div{
+  background-color: var(--WHITE);
+  width: 375px;
+  height: 453px;
+}
+.summary{
+  margin: 1.5rem 16.56rem 0px 2rem;
+  color: var(--DARKNAVY);
+  font: var(--BODY-BOLD);
+}
+.section-output{
+  display: flex;
+  flex-flow: column;
+  gap:1rem;
+  align-items: center;
+}
+figure{
+  
+}
