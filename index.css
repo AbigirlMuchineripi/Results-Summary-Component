@@ -17,7 +17,7 @@ img {
 :root {
   /* COLORS */
   --YELLOW: #FFB21E;
-  --YELLO-95-WHITE:#f8efe2f7;
+  --YELLOW-95-WHITE:#f8efe2f7;
   --BLUE:#1125D6;
   --BLUE-95-WHITE:#edeffc;
   --GREEN:#00BB8F;
@@ -28,6 +28,7 @@ img {
   --LIGHTBLUE:#CAC9FF;
   --VERYLIGHTBLUE:#ECF2FF;
   --WHITE:#FFFFFF;
+
 
 
   /* GRADIENTS */
@@ -43,8 +44,24 @@ img {
     #2521C900 100%,
     #2521C900 100%
   );
-
+  
   /* TYPOGRAPHY */
+  --FF: Hanken Grotesk, sans-serif;
+ 
+  /*Desktop*/
+  --BODY:normal 1.13rem var(--FF);
+  --BODY-BOLD:bold 1.13rem var(--FF);
+  --HEADING-M: bold 1.5rem var(--FF);
+  --HEADING-L:bold 2rem var(--FF);
+  --HEADING-XL:800 4.5rem var(--FF);  
+
+  /*Mobile*/
+  --BODY-MOB:normal 1rem var(--FF);
+  --BODY-BOLD:bold 1.13rem var(--FF);
+  --HEADING-M-MOB: bold 1.13rem var(--FF);
+  --HEADING-L-MOB:bold 1.5rem var(--FF);
+  --HEADING-XL:800 3.5rem/4.5rem var(--FF);  
+
 }
 
 /* || UTILITY CLASSES */
@@ -69,6 +86,7 @@ img {
 /* || GENERAL STYLES */
 html {
   scroll-behavior: smooth;
+  font-size: 1rem;
 }
 
 body {
@@ -77,8 +95,7 @@ body {
   overflow-x: hidden;
 }
 
-h1,
-h2 {
+h1 {
   margin: 0;
   padding: 0;
   font-size: inherit;
@@ -88,4 +105,45 @@ h2 {
 a:any-link {
   text-decoration: none;
   color: black;
+}
+.main{
+  width: 375px;
+  height: 809px;
+  background-color: var(--WHITE);
+}
+.upper-div{
+  background-image:var(--GRADIENT-1);
+  min-height: 375px;
+  max-width: 356px;
+  border: 1px solid black;
+  border-radius: 0px 0px 32px 32px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem; 
+}
+.your-result{
+  font: var(--HEADING-M-MOB);
+  color: var(--LIGHTBLUE);
+  margin-top: 1.5rem;
+ 
+}
+.score-div{
+  width:8.75rem;
+  height:8.75rem;
+  border-radius: 100%;
+  background-image: var(--GRADIENT-2);
+
+}
+.output{
+  color: white;
+  font: var(--HEADING-XL);
+  padding:1.56rem 2.43rem 2.69rem 2.39rem;
+
+}
+.total{
+  font: var(--BODY-MOB);
+  color:var(--LIGHTBLUE);
+  padding: 0.06rem 2.94rem 1.34rem 2.94rem;
 }
