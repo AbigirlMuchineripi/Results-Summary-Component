@@ -6,7 +6,7 @@
     <meta name="author" content="Aby Muc">
     <meta name="description" content="Results Summary Component">
     <title>Results Summary Component</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link
      rel="shortcut icon" 
@@ -16,76 +16,88 @@
 </head>
 
 <body>
-    <article class="main">
-        <section class="upper-div">
-            <p class="your-result">Your Result</p>
-            <div class="score-div">
-                <p class="output center">76</p>
-                <p class="total center">of 100</p>
-            </div>
-            <div class="comment-section">
-                <h1>Great</h1>
-                <p class="perfomance-comment">Your perfomance exceeded 65% of the people conducting the test here!</p>
-            </div>
-        </section>
-
-        <section class="lower-div">
-            <p class="summary">Summary</p>
-            <div class="section-output">
-                <figure>
-                    <img src="./images/icon-reaction.svg" 
-                    alt="illustration"
-                    width="20"
-                    height="20"
-                    loading="lazy">
-                    <figcaption class="offscreen">illustration</figcaption>
-                </figure>
-                <p class="section-text">Reaction</p>
-                <p class="section-result"><span class="bold">80</span>/100</p>
-            </div>
-            <div class="section-output">
-                <figure>
-                    <img src="./images/icon-memory.svg" 
-                    alt="illustration"
-                    width="20"
-                    height="20"
-                    loading="lazy">
-                    <figcaption class="offscreen">illustration</figcaption>
-                </figure>
-                <p class="section-text">Memory</p>
-                <p class="section-result"><span class="bold">92</span>/100</p>
-            </div>
-            <div class="section-output">
-                <figure>
-                    <img src="./images/icon-verbal.svg" 
-                    alt="illustration"
-                    width="20"
-                    height="20"
-                    loading="lazy">
-                    <figcaption class="offscreen">illustration</figcaption>
-                </figure>
-                <p class="section-text">Verbal</p>
-                <p class="section-result"><span class="bold">61</span>/100</p>
-            </div>
-            <div class="section-output">
-                <figure>
-                    <img src="./images/icon-visual.svg" 
-                    alt="illustration"
-                    width="20"
-                    height="20"
-                    loading="lazy">
-                    <figcaption class="offscreen">illustration</figcaption>
-                </figure>
-                <p class="section-text">Visual</p>
-                <p class="section-result"><span class="bold">73</span>/100</p>
-            </div>
+    <article class="main-card">
+        <section class="main-card-upper-div">
+            <h2 class="main-card-result">Your Result</h2>
             
+            <div class="main-card-score-div">
+                <div class="output center">76</div>
+                <div class="total center">of 100</div>
+            </div>
+
+            <div class="main-card-comment-section">
+                <h1 class="main-card-comment-title">Great</h1>
+                <p class="main-card-perfomance-comment center">Your perfomance exceeded 65% of
+                     the people conducting the test here!
+                </p>
+            </div>
         </section>
 
-        <div class="button">
-            <button>Continue</button>
-        </div>
+        <section class="main-card-lower-div">
+            <h2 class="main-card-summary-title">Summary</h2>
 
+            <section class="main-card-summary-sections">
+                <div class="sections sections-reaction">
+                    <div class="sections-overlay"></div>
+
+                    <div class="sections-label-icon">
+                        <figure>
+                            <img src="./images/icon-reaction.svg" 
+                            alt="illustration"
+                            width="20"
+                            height="20"
+                            loading="lazy">
+                            <figcaption class="offscreen">illustration</figcaption>
+                        </figure>
+                        <p class="section-text">Reaction</p>
+                        <p class="section-result"><span class="bold">80</span>/100</p>
+                    </div>
+                    
+                    <div class="sections-label-icon">
+                        <figure>
+                            <img src="./images/icon-memory.svg" 
+                            alt="illustration"
+                            width="20"
+                            height="20"
+                            loading="lazy">
+                            <figcaption class="offscreen">illustration</figcaption>
+                        </figure>
+                        <p class="section-text">Memory</p>
+                        <p class="section-result"><span class="bold">92</span>/100</p>
+                    </div>
+                    <div class="sections-label-icon">
+                        <figure>
+                            <img src="./images/icon-verbal.svg" 
+                            alt="illustration"
+                            width="20"
+                            height="20"
+                            loading="lazy">
+                            <figcaption class="offscreen">illustration</figcaption>
+                        </figure>
+                        <p class="section-text">Verbal</p>
+                        <p class="section-result"><span class="bold">61</span>/100</p>
+                    </div>
+                    <div class="sections-label-icon">
+                        <figure>
+                            <img src="./images/icon-visual.svg" 
+                            alt="illustration"
+                            width="20"
+                            height="20"
+                            loading="lazy">
+                            <figcaption class="offscreen">illustration</figcaption>
+                        </figure>
+                        <p class="section-text">Visual</p>
+                        <p class="section-result"><span class="bold">73</span>/100</p>
+                    </div>
+                    
+                </section>
+        
+                <a class="main-card-button">
+                    <button>Continue</button>
+                </a>       
+
+                </div>
+            </section>           
     </article>    
 </body>
 </html>
