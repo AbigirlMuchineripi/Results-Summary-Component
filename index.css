@@ -106,13 +106,13 @@ a:any-link {
   text-decoration: none;
   color: black;
 }
-.main{
+.main-card{
   width: 100%;
   height: 809px;
   background-color: var(--WHITE);
   
 }
-.upper-div{
+.main-card-upper-div{
   background-image:var(--GRADIENT-1);
   min-height: 356px;
   max-width: 100%;
@@ -124,13 +124,13 @@ a:any-link {
   gap: 1.5rem;
   margin-bottom: 1.5rem; 
 }
-.your-result{
+.main-card-result{
   font: var(--HEADING-M-MOB);
   color: var(--LIGHTBLUE);
   margin-top: 1.5rem;
  
 }
-.score-div{
+.main-card-score-div{
   width:8.75rem;
   height:8.75rem;
   border-radius: 100%;
@@ -148,22 +148,22 @@ a:any-link {
   color:var(--LIGHTBLUE);
   padding:  2.94rem 1.34rem 2.94rem;
 }
-.comment-section{
+.main-card-comment-section{
   gap: 0.5rem;
   display:flex;
   flex-flow: column;
   align-items: center;
 }
-h1{
+.main-card-comment-title{
   font: var(--HEADING-M-MOB);
   color: var(--WHITE);
 }
-.perfomance-comment{
+.main-card-perfomance-comment{
   font:var(--BODY-MOB);
   color: var(--LIGHTBLUE);
   margin: 0.5rem 3.56rem 2.5rem 3.63rem;
 }
-.lower-div{
+.main-card-lower-div{
   background-color: var(--WHITE);
   width: 375px;
   height: 453px;
