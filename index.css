@@ -332,7 +332,6 @@ a:any-link {
   }
   .section-text{
     font: var(--BODY);
-
   }
   .sections-value{
     font: var(--BODY-BOLD);
@@ -345,15 +344,8 @@ a:any-link {
     .main-card-button:hover,
     .main-card-button:focus-visible{
       background-image: var(--GRADIENT-1);
-
-    }
-
-    
-  }
-
-
-
-  
+    }    
+  }  
 }
 
 
