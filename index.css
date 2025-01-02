@@ -281,10 +281,12 @@ a:any-link {
   .main-card-score-div{
     width:200px;
     height:200px;
+    padding:3.4375rem 3.75rem 2.875rem 3.6875rem;
+    margin-bottom: 1.75rem;
+
   }
   .output{
-    font: var(--HEADING-XL);
-    padding:3.4375rem 3.75rem 2.875rem 3.6875rem;
+    font: var(--HEADING-XL);   
   }
   .total{
     font: var(--BODY-BOLD);
@@ -295,7 +297,7 @@ a:any-link {
   }
   .main-card-comment-title{
     font: var(--HEADING-M);   
-    margin-top:1.75rem;
+  
   }
   .main-card-perfomance-comment{   
    font:var(--BODY);  
