@@ -129,13 +129,9 @@ a:any-link {
   font: var(--HEADING-XL); 
 }
 .total{
-  white-space: nowrap;
-  display:flex;
-  flex-flow:column;
-  gap:0;
-  align-items:center;
   font: var(--BODY-MOB);
   color:var(--LIGHTBLUE);  
+  opacity: 51.68%;
 }
 .main-card-comment-section{
   gap: 0.5rem;
@@ -303,8 +299,6 @@ a:any-link {
   }
   .main-card-perfomance-comment{   
    font:var(--BODY);  
-   width: 16.25rem; 
-   height: 4.3125rem;  
    
   }
   /*card Summary*/
