@@ -301,7 +301,7 @@ a:any-link {
   }
   .main-card-perfomance-comment{   
    font:var(--BODY); 
-  
+  width: 260px;
    
   }
   /*card Summary*/
