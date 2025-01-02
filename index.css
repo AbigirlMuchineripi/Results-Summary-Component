@@ -265,15 +265,15 @@ a:any-link {
   }
   .main-card{
     max-width: 736px;
-    min-height: 512px;
+    height: 512px;
     display: flex;    
     align-items: center;
-    border: 32px;
+    border-radius: 32px;
     box-shadow: var(--SHADOW);   
  
   }
   .main-card-upper-div{
-    min-height: 512px;
+    height: 512px;
     max-width: 368px;
     padding:2.375rem 3.375rem 2.875rem 3.375rem ;
     border-radius: 32px;   
@@ -313,6 +313,7 @@ a:any-link {
   .main-card-lower-div{
     max-width:23rem;
     height: 32rem;
+    border-radius: 32px;
   }
   .main-card-summary-title{
     margin: 2.375rem 14rem 1.75rem 2.5rem;
