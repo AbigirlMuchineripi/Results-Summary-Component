@@ -326,17 +326,25 @@ a:any-link {
     gap: 1rem;
     margin: 1.75rem 2.5rem 2.5625rem 2.5rem;
   }
-  
-  .sections{
-    width: 18rem;
+  .sections{  
     padding: 1.0625rem 1rem 1rem 1rem;
-    margin-bottom: 1.125rem;
+  }
+  .sections-label-icon{
+    width: 6.4375rem;   
   }
   .section-text{
     font: var(--BODY);
 
   }
-  .sections-value
+  .sections-value{
+    font: var(--BODY-BOLD);
+  }
+  .main-card-button{
+    padding: 1.0625rem 6.6875rem 1rem 6.625rem;
+
+  }
+
+
 
   
 }
