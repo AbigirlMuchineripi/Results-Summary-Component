@@ -275,7 +275,7 @@ a:any-link {
     margin-bottom: 0rem; 
   }
   .main-card-result{
-    font: var(--HEADING-M-MOB);
+    font: var(--HEADING-M);
     margin-bottom: 2.1875rem; 
   }
   .main-card-score-div{
@@ -292,7 +292,7 @@ a:any-link {
     font: var(--BODY-BOLD);
   }
   .main-card-comment-section{
-    gap: .875rem;
+    gap: 0.875rem;
    
   }
   .main-card-comment-title{
@@ -301,7 +301,7 @@ a:any-link {
   }
   .main-card-perfomance-comment{   
    font:var(--BODY); 
-   margin-bottom: 3.4375rem; 
+  
    
   }
   /*card Summary*/
