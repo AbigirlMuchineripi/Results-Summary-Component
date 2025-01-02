@@ -266,18 +266,16 @@ a:any-link {
   .main-card{
     max-width: 736px;
     min-height: 512px;
-    display: flex;
-    flex-flow: row;
+    display: flex;    
     align-items: center;
     border: 32px;
-    box-shadow: var(--SHADOW);
+    box-shadow: var(--SHADOW);   
  
   }
   .main-card-upper-div{
-    min-height: 32rem;
-    max-width: 23rem;
+    min-height: 512px;
+    max-width: 368px;
     padding:2.375rem 3.375rem 2.875rem 3.375rem ;
-    border: 1px solid black;
     border-radius: 32px;   
     gap: 0rem;
     margin-bottom: 0rem; 
@@ -287,8 +285,8 @@ a:any-link {
     margin-bottom: 2.1875rem; 
   }
   .main-card-score-div{
-    width:12.5rem;
-    height:12.5rem;
+    width:200px;
+    height:200px;
   }
   .output{
     font: var(--HEADING-XL);
@@ -342,6 +340,15 @@ a:any-link {
   .main-card-button{
     padding: 1.0625rem 6.6875rem 1rem 6.625rem;
 
+  }
+  @media screen and (min-width:992px) {
+    .main-card-button:hover,
+    .main-card-button:focus-visible{
+      background-image: var(--GRADIENT-1);
+
+    }
+
+    
   }
 
 
