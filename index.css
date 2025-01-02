@@ -39,7 +39,8 @@ img {
     #2521C900 100%,
     #2521C900 100%
   );
-  
+  /*SHADOW*/
+  --SHADOW: 0 4px 4px  0 hsla(0, 0%, 0%, 0.25);
   /* TYPOGRAPHY */
   --FF: Hanken Grotesk, sans-serif;
  
@@ -93,6 +94,7 @@ a:any-link {
   text-decoration: none;
   color: black;
 }
+/*main card*/
 .main-card{
   width: 100%;
   height: 809px;
@@ -121,6 +123,7 @@ a:any-link {
   border-radius: 100%;
   background-image: var(--GRADIENT-2);
 }
+
 .output{
   color: white;
   font: var(--HEADING-XL);
@@ -135,6 +138,7 @@ a:any-link {
   font: var(--BODY-MOB);
   color:var(--LIGHTBLUE);
   padding:  0rem 1.34rem 2.94rem; 
+  
 }
 .main-card-comment-section{
   gap: 0.5rem;
@@ -150,7 +154,10 @@ a:any-link {
   font:var(--BODY-MOB);
   color: var(--LIGHTBLUE);
   margin: 0.5rem 3.56rem 2.5rem 3.63rem;
+  max-width: 16.25rem;
 }
+
+/*card Summary*/
 .main-card-lower-div{
   background-color: var(--WHITE);
   width: 100%;
@@ -250,6 +257,87 @@ a:any-link {
 
 /* || TABLET DESIGN */
 @media screen and (min-width:768px) {
+  /*main card*/
+  body {
+    display:grid;
+    place-content: center;
+    background-color: var(--VERYLIGHTBLUE);
+  }
+  .main-card{
+    max-width: 736px;
+    min-height: 512px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    border: 32px;
+    box-shadow: var(--SHADOW);
+ 
+  }
+  .main-card-upper-div{
+    min-height: 32rem;
+    max-width: 23rem;
+    padding:2.375rem 3.375rem 2.875rem 3.375rem ;
+    border: 1px solid black;
+    border-radius: 32px;   
+    gap: 0rem;
+    margin-bottom: 0rem; 
+  }
+  .main-card-result{
+    font: var(--HEADING-M-MOB);
+    margin-bottom: 2.1875rem; 
+  }
+  .main-card-score-div{
+    width:12.5rem;
+    height:12.5rem;
+  }
+  .output{
+    font: var(--HEADING-XL);
+    padding:3.4375rem 3.75rem 2.875rem 3.6875rem;
+  }
+  .total{
+    font: var(--BODY-BOLD);
+  }
+  .main-card-comment-section{
+    gap: .875rem;
+   
+  }
+  .main-card-comment-title{
+    font: var(--HEADING-M);   
+    margin-top:1.75rem;
+  }
+  .main-card-perfomance-comment{   
+    font:var(--BODY);  
+   width: 16.25rem; 
+   height: 4.3125rem;  
+   
+  }
+  /*card Summary*/
+  .main-card-lower-div{
+    max-width:23rem;
+    height: 32rem;
+  }
+  .main-card-summary-title{
+    margin: 2.375rem 14rem 1.75rem 2.5rem;
+    font: var(--HEADING-M);
+  }
+  .main-card-summary-sections{
+    max-width: 18rem;
+    min-height: 17rem;
+    gap: 1rem;
+    margin: 1.75rem 2.5rem 2.5625rem 2.5rem;
+  }
+  
+  .sections{
+    width: 18rem;
+    padding: 1.0625rem 1rem 1rem 1rem;
+    margin-bottom: 1.125rem;
+  }
+  .section-text{
+    font: var(--BODY);
+
+  }
+  .sections-value
+
   
 }
 
