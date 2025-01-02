@@ -300,7 +300,8 @@ a:any-link {
   
   }
   .main-card-perfomance-comment{   
-   font:var(--BODY);  
+   font:var(--BODY); 
+   margin-bottom: 3.4375rem; 
    
   }
   /*card Summary*/
