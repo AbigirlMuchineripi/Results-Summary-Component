@@ -258,8 +258,8 @@ a:any-link {
     background-color: var(--VERYLIGHTBLUE);
   }
   .main-card{
-    max-width: 736px;
-    min-height: 512px;
+    width: 736px;
+    height: 512px;
     display: flex;    
     align-items: center;
     border-radius: 32px;
