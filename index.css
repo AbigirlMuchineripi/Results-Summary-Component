@@ -258,7 +258,7 @@ a:any-link {
     background-color: var(--VERYLIGHTBLUE);
   }
   .main-card{
-    width: 736px;
+    max-width: 736px;
     height: 512px;
     display: flex;    
     align-items: center;
