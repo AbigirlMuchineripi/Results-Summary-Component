@@ -276,6 +276,7 @@ a:any-link {
   }
   .main-card-result{
     font: var(--HEADING-M);
+    margin-top: 2.375rem;
     margin-bottom: 2.1875rem; 
   }
   .main-card-score-div{
