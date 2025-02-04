@@ -275,8 +275,10 @@ a:any-link {
     margin-bottom: 0rem; 
   }
   .main-card-result{
-    font: var(--HEADING-M);   
+    font: var(--HEADING-M);
+    margin-top:2.375rem;
     margin-bottom: 2.1875rem; 
+    
   }
   .main-card-score-div{
     width:200px;
