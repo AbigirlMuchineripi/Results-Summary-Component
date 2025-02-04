@@ -269,7 +269,7 @@ a:any-link {
   .main-card-upper-div{
     min-height: 512px;
     max-width: 368px;
-    padding:2.375rem 3.375rem 2.875rem 3.375rem ;
+    padding:0rem 3.375rem 0rem 3.375rem ;
     border-radius: 32px;   
     gap: 0rem;
     margin-bottom: 0rem; 
